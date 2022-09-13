@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /* more headers goes there */
 
@@ -20,15 +21,15 @@ if (n > 0)
 
 	{
 	
-	Printf( "%is positive \n", n);
+	printf( "%is positive \n", n);
 	
 	}else if(n == 0){
 
-	Printf( "%is zero \n", n);
+	printf( "%is zero \n", n);
 	
 	}else{
 
-	Printf( "%is negative \n", n);
+	printf( "%is negative \n", n);
 
 	}
 	return (0);
