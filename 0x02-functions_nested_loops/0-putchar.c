@@ -18,6 +18,6 @@ int main(void)
 		putchar(myNumbers[i]);
 		i++;
 	}
-	putchar('yoo\n');
+	putchar('\n');
 	return (0);
 }
