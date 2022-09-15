@@ -3,6 +3,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * Description : - function that checks for alphabetic character
  * isalpha - function that checks for alphabetic character.
  * @c: single letter input
  * Return: Always 0 (Success)
