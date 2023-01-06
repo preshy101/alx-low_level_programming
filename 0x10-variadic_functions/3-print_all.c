@@ -65,11 +65,11 @@ void print_string(va_list arg)
 	printf("%s", str);
 }
 /**
- *       print_all - Prints anything, followed by a new line.
- *       @format: A string of characters representing the argument types.
- *       @...: A variable number of arguments to be printed.
- *       Description: Any argument not of type char, int, float or char * is ignored.
- *       If a string argument is NULL, (nil) is printed instead.
+ *  print_all - Prints anything, followed by a new line.
+ *  @format: A string of characters representing the argument types.
+ *  @...: A variable number of arguments to be printed.
+ *  Description: Any argument not of type char, int, float or char
+ *  If a string argument is NULL, (nil) is printed instead.
  **/
 void print_all(const char * const format, ...)
 {
