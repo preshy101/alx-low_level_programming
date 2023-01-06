@@ -41,7 +41,7 @@ int _atoi(const char *s)
 	return (sign *resp);
 }
 /**
- *print_int - prints an integer.
+ * print_int - prints an integer.
  * @n: int
  * Return: 0
  **/
