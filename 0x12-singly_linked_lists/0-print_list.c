@@ -1,5 +1,6 @@
 #include "lists.h"
 /**
+ *
  *  print_list - prints all the elements of a list
  *  @h: pointer to the first element
  *   Return: number of nodes
@@ -18,4 +19,4 @@ size_t print_list(const list_t *h)
 		count++;
 	}
 	return (count);
-}
+} 
